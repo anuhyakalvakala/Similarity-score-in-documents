@@ -18,65 +18,65 @@ The code compares all the uploaded files with the all other files in the documen
 ## The Vectorized text is as below:
  
 <numpy.vectorize object at 0x1385f3d30>
-['life', 'is', 'all', 'about', 'finding', 'money', 'and', 'spending', 'on', 'luxury', 'stuffs', 'coz', 'this', 'life', 'is', 'kinda', 'short', 'trust']
-['life', 'is', 'all', 'about', 'finding', 'money', 'and', 'spending', 'on', 'luxury', 'stuffs', 'coz', 'this', 'life', 'is', 'kinda', 'short', 'trust']
-['life', 'to', 'me', 'is', 'about', 'finding', 'money', 'and', 'use', 'it', 'on', 'things', 'that', 'makes', 'you', 'happy', 'coz', 'this', 'life', 'is', 'kinda', 'short']
-['hey', 'their', 'i', 'm', 'anuhya', 'life', 'is', 'a', 'surprise', 'go', 'and', 'enjoy']
-['life', 'is', 'all', 'about', 'doing', 'your', 'best', 'in', 'trying', 'to', 'find', 'what', 'works', 'out', 'for', 'you', 'and', 'taking', 'most', 'time', 'in', 'trying', 'to', 'pursue', 'those', 'skills']
-['hey', 'their', 'i', 'm', 'anuhya', 'life', 'is', 'a', 'surprise', 'go', 'and', 'enjoy']
-['hi', 'my', 'name', 'is', 'anuhya', 'life', 'is', 'very', 'unpredictable', 'go', 'and', 'enjoy', 'every', 'single', 'day']
+['life', 'is', 'all', 'about', 'finding', 'money', 'and', 'spending', 'on', 'luxury', 'stuffs', 'coz', 'this', 'life', 'is', 'kinda', 'short', 'trust'],
+['life', 'is', 'all', 'about', 'finding', 'money', 'and', 'spending', 'on', 'luxury', 'stuffs', 'coz', 'this', 'life', 'is', 'kinda', 'short', 'trust'],
+['life', 'to', 'me', 'is', 'about', 'finding', 'money', 'and', 'use', 'it', 'on', 'things', 'that', 'makes', 'you', 'happy', 'coz', 'this', 'life', 'is', 'kinda', 'short'],
+['hey', 'their', 'i', 'm', 'anuhya', 'life', 'is', 'a', 'surprise', 'go', 'and', 'enjoy'],
+['life', 'is', 'all', 'about', 'doing', 'your', 'best', 'in', 'trying', 'to', 'find', 'what', 'works', 'out', 'for', 'you', 'and', 'taking', 'most', 'time', 'in', 'trying', 'to', 'pursue', 'those', 'skills'],
+['hey', 'their', 'i', 'm', 'anuhya', 'life', 'is', 'a', 'surprise', 'go', 'and', 'enjoy'],
+['hi', 'my', 'name', 'is', 'anuhya', 'life', 'is', 'very', 'unpredictable', 'go', 'and', 'enjoy', 'every', 'single', 'day'],
 
 ## The vectorized text after removing stop words:
 
-['life finding money spending luxury stuffs coz life kinda short trust'
- 'life finding money use things makes happy coz life kinda short'
- 'hey anuhya life surprise go enjoy'
- 'life best trying find works taking time trying pursue skills'
- 'hey anuhya life surprise go enjoy'
+['life finding money spending luxury stuffs coz life kinda short trust',
+ 'life finding money use things makes happy coz life kinda short',
+ 'hey anuhya life surprise go enjoy',
+ 'life best trying find works taking time trying pursue skills',
+ 'hey anuhya life surprise go enjoy',
  'hi name anuhya life unpredictable go enjoy every single day']
  
  
  ## Below are the similarity measures of the each document with other document uploaded:
  
 ### Doc 1
-1.0000000000000002
-0.6923076923076924
-0.22645540682891918
-0.16012815380508716
-0.22645540682891918
+1.0000000000000002,
+0.6923076923076924,
+0.22645540682891918,
+0.16012815380508716,
+0.22645540682891918,
 0.17541160386140586
 ### Doc 2
-0.6923076923076924
-1.0000000000000002
-0.22645540682891918
-0.16012815380508716
-0.22645540682891918
+0.6923076923076924,
+1.0000000000000002,
+0.22645540682891918,
+0.16012815380508716,
+0.22645540682891918,
 0.17541160386140586
 ### Doc 3
-0.22645540682891918
-0.22645540682891918
-1.0000000000000002
-0.11785113019775793
-1.0000000000000002
+0.22645540682891918,
+0.22645540682891918,
+1.0000000000000002,
+0.11785113019775793,
+1.0000000000000002,
 0.5163977794943223
 ### Doc 4
-0.16012815380508716
-0.16012815380508716
-0.11785113019775793
-1.0000000000000002
-0.11785113019775793
+0.16012815380508716,
+0.16012815380508716,
+0.11785113019775793,
+1.0000000000000002,
+0.11785113019775793,
 0.09128709291752768
 ### Doc 5
-0.22645540682891918
-0.22645540682891918
-1.0000000000000002
-0.11785113019775793
-1.0000000000000002
+0.22645540682891918,
+0.22645540682891918,
+1.0000000000000002,
+0.11785113019775793,
+1.0000000000000002,
 0.5163977794943223
 ### Doc 6
-0.17541160386140586
-0.17541160386140586
-0.5163977794943223
-0.09128709291752768
-0.5163977794943223
+0.17541160386140586,
+0.17541160386140586,
+0.5163977794943223,
+0.09128709291752768,
+0.5163977794943223,
 0.9999999999999998
